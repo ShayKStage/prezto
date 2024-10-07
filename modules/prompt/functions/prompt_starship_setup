@@ -5,4 +5,4 @@ if ! command -v starship &>/dev/null; then
   >&2 echo "Starship prompt not installed. See https://starship.rs"
   return 1
 fi
-eval "$(starship init zsh)"
+eval "$(command starship init zsh)"
