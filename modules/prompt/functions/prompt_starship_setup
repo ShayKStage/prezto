@@ -1,0 +1,3 @@
+function prompt_starship_setup {
+  eval "$(starship init zsh)"
+}
